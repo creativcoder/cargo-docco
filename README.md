@@ -1,5 +1,5 @@
 <div align="center">
-  <img alt="rocco" width="250" src="assets/rocco.png" />
+  <img alt="rocco" width="250" src="assets/cargo-docco.png" />
 <h1>cargo docco</h1>
 <p>cargo docco generates literate programming style 
 documentation pages.</p>
@@ -21,7 +21,18 @@ $ cargo install cargo-docco
 
 (Please check [`cargo`'s documentation](http://doc.crates.io/) to learn how `cargo install` works and how to set up your system so it finds binaries installed by `cargo`.)
 
-#### Usage
+## Usage
+
+Generating documentation pages is as simple as providing cargo docco an input file via `-i` flag.
+
+```
+cargo docco -i source.rs [-o <optional output file name>]
+```
+
+When no output file is provided, cargo docco will generate an html file name
+same as the source file name.
+
+## CLI overview
 
 ```plain
 > cargo docco -h
@@ -39,6 +50,9 @@ OPTIONS:
     -i <input>         input source file
     -o <output>        optional path to the generated output html file
 ```
+
+## Supported languages
+cargo-docco relies on [rocco](https://github.com/creativcoder/rocco). See "Supported languages" section for supported languages.
 
 ## Contribution
 

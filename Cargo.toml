@@ -3,6 +3,8 @@ name = "cargo-docco"
 version = "0.1.0"
 authors = ["creativcoder <creativcoders@gmail.com>"]
 edition = "2018"
+license = "Apache-2.0/MIT"
+description = "cargo docco generates literate programming style documentation pages from source code. Port of Jash Kenas' Docco in Rust."
 categories = [
     "development-tools",
     "development-tools::cargo-plugins",
@@ -14,11 +16,11 @@ keywords = [
     "dependencies",
     "cargo-subcommand",
 ]
-license = "Apache-2.0/MIT"
+repository="https://github.com/creativcoder/cargo-docco"
 
 [dependencies]
 structopt = "0.3.20"
-rocco = { path = "/home/creativcoder/projects/rocco" }
+rocco = "0.1.0"
 anyhow = "1.0.33"
 
 [[bin]]
