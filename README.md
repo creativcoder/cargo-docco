@@ -4,8 +4,10 @@
 <p>cargo docco generates literate programming style 
 documentation pages.</p>
 
-[![Build Status](https://github.com/creativcoder/cargo-docco/workflows/build/badge.svg)](https://github.com/creativcoder/cargo-docco/actions)
+[![Actions Status](https://github.com/creativcoder/cargo-docco/workflows/ci/badge.svg)](https://github.com/creativcoder/cargo-docco/actions)
 [![crates.io](https://img.shields.io/crates/v/cargo-docco.svg)](https://crates.io/crates/cargo-docco)
+[![license](https://img.shields.io/badge/License-MIT-blue.svg)](https://github.com/creativcoder/avrow/blob/master/LICENSE-MIT)
+[![license](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://github.com/creativcoder/avrow/blob/master/LICENSE-APACHE)
 
 </div>
 
